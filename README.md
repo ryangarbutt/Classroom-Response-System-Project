@@ -1,6 +1,6 @@
 # WSU CptS 322 Term Project SPRING SEMESTER 2023
 
-Classroom Response System. Have a team build a classroom response system like iClicker or TopHat. Initial development could focus on the basic infrastructure, such as allowing instructors to design questions and allowing students to answer them. Subsequent development could greatly expand the features to include instructor and student dashboards, custom instruction types and even integration with LMSs. This will keep students participating in class and help teachers check student's understanding of the material
+Classroom response clicker is a web application that allows to users to create secure accounts and sign into a web portal. The web portal gives users the ability to create, post, and analyzse polls and their responses from other users. Users are also able to create groups which are password protected to get polls from a specified audience. This project was created with Python & Flask.
 
 Collaborators:
 
@@ -9,14 +9,6 @@ Collaborators:
 	Silvestre Pamatz-Rangel 		,	s.pamatz-rangel@wsu.edu
 	
 	Gabriel Allen				,	gabriel.allen@wsu.edu
-	
-	Yannik Castro				,	y.castro-morales@wsu.edu
-	
-	Xavier Smith				,	xavier.smith@wsu.edu
-		
-	Richard Castro				,	richard.castro@wsu.edu
-	
-	Joshua Yuan				,	joshua.yuan@wsu.edu
 	
 
 PROJECT SETUP:
