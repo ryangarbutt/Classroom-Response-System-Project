@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+{% extends 'base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+  <div class="container">
+    <div id="nav">
+      <!-- <a href="{{ url_for('logout') }}">Logout</a> -->
+    </div>
+
+    <h1>Welcome, {{ user.first_name }}!</h1>
+    <br>
+    <a class="btn" href="{{ url_for('create_poll') }}">Create Poll</a>
+    <br>
+  </div>
+{% endblock %}
