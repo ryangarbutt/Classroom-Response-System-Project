@@ -19,4 +19,25 @@ Collaborators:
 	Joshua Yuan				,	joshua.yuan@wsu.edu
 	
 
+PROJECT SETUP:
 
+If you are running the application on MAC OS in visual studio code, configure your default terminal language to bash
+before running the code, make sure your terminal has been routed to the project folder
+then you want to run these commands in this order: 
+python3 -m venv venv
+. venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+pip install wtforms[email]
+pip install config 
+
+
+
+If you are running the application on a Windows machine
+navigate to the project folder
+run these commands:
+py -3 -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+pip install wtforms[email]
+pip install config 
